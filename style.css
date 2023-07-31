@@ -1,0 +1,36 @@
+:root {
+	--gridsize: 80vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	place-items: center;
+}
+
+header {
+}
+.grid {
+	height: var(--gridsize);
+	width: var(--gridsize);
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid green;
+}
+.square {
+	flex: 1 0 calc((100%) / 16);
+
+	transition: all 6s cubic-bezier(0, 1.8, 0, 1.51);
+}
+
+.square:hover {
+	background: black;
+}
