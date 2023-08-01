@@ -30,3 +30,5 @@ function draw(e) {
 	// turn off trailing effect
 	e.target.style.transition = 'none';
 }
+
+year.textContent = new Date().getFullYear();

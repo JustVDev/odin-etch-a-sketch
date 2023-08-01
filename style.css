@@ -34,3 +34,10 @@ header {
 .square:hover {
 	background: black;
 }
+
+footer {
+	font-size: 1.5rem;
+	display: flex;
+	width: 80vh;
+	justify-content: space-between;
+}
